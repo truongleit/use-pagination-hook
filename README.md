@@ -56,6 +56,7 @@ interface Props {
   pageSize: number;
   className?: string;
 }
+```
 
 - `onPageChange`: A callback function that is invoked when a page is selected. It receives the selected page number as a parameter.
 - `totalCount`: The total number of items to be paginated.
@@ -63,7 +64,6 @@ interface Props {
 - `currentPage`: The current page number.
 - `pageSize`: The number of items per page.
 - `className` (optional): Additional CSS classes to be applied to the component.
-```
 
 ## Example usage:
 
